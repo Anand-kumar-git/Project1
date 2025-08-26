@@ -8,7 +8,7 @@ pipeline {
     }
 
     stages {
-        stage('Clnup Workspace') {
+        stage('Cleanup Workspace') {
             steps {
                 deleteDir()
             }
